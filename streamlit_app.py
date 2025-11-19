@@ -9,9 +9,7 @@ st.title("이순신 & 도요토미 대화 시뮬레이션")
 st.write("이순신 장군과 대화해보세요. 가끔 도요토미 히데요시가 끼어들 수 있습니다.")
 
 # API-KEY 설정 (Streamlit secrets 사용 권장)
-# GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"] # 실제 배포 시
-# Colab에서 실행 테스트 시에는 직접 키를 입력하거나, userdata.get()을 사용할 수 있습니다.
-# 예를 들어: GOOGLE_API_KEY = "YOUR_API_KEY"
+# GOOGLE_API_KEY = "AIzaSyCOGl26FVGWSQMQsC2572MhqPSkCyRsY8E" # 실제 배포 시
 
 # Colab 환경에서 테스트를 위해 notebook의 GOOGLE_API_KEY를 사용
 try:
